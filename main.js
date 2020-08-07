@@ -281,7 +281,7 @@ async function handleRequest(request) {
 </head>
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 <div class="mdui-container">
-    <div class="mdui-typo-display-3 mdui-m-t-1">GoIndex 代码生成</div>
+    <div class="mdui-typo-display-3 mdui-m-t-1">GoIndex Code Generation</div>
 
     <br><br><br><br><br>
 
@@ -307,7 +307,7 @@ async function handleRequest(request) {
             </div>
             <div class="mdui-textfield">
                 <i class="mdui-icon material-icons">folder_open</i>
-                <label class="mdui-textfield-label">Directory ID (It can be a team drive ID or a shared folder ID or Root)</label>
+                <label class="mdui-textfield-label">Directory ID</label>
                 <input class="mdui-textfield-input" type="text" name="root"/>
             </div>
             <div class="mdui-textfield">
@@ -322,7 +322,7 @@ async function handleRequest(request) {
     </div>
     <br><br><br><br>
     <h2>
-        3.Copy the following code to<a href="https://dash.cloudflare.com/" target="_blank">Cloudflare Workers</a>：
+        3.Copy the following code to Cloudflare Workers</a>：
     </h2>
     <div class="mdui-typo">
         <pre class="snippet"><code class="html js">${codeJS}</code></pre>
